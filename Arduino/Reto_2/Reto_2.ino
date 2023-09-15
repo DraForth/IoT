@@ -13,19 +13,13 @@ pinMode(led3,OUTPUT);
 
 void loop() {
   // put your main code here, to run repeatedly:
- //led rojo
-digitalWrite(led,HIGH);
-delay(1000); //200=1s
-digitalWrite(13,LOW);
-delay(1000);
-//led amarillo
-digitalWrite(led2,HIGH);
-delay(1000); //200=1s
-digitalWrite(6,LOW);
-delay(800);
-//led verde
+digitalWrite(led, HIGH);
+digitalWrite(led2, HIGH);
 digitalWrite(led3,HIGH);
 delay(1000); //200=1s
+digitalWrite(13, LOW);
+digitalWrite(6,LOW);
 digitalWrite(2,LOW);
 delay(1000);
+
 }
