@@ -13,33 +13,27 @@ void loop() {
   // put your main code here, to run repeatedly:
  //led rojo
 digitalWrite(led,HIGH);
-delay(100); //200=1s
+delay(1000); //200=1s
 digitalWrite(13,LOW);
-delay(400);
+delay(1000);
 //led amarillo
 digitalWrite(led2,HIGH);
-delay(300); //200=1s
+delay(1000); //200=1s
 digitalWrite(6,LOW);
-delay(600);
+delay(800);
 //led verde
 digitalWrite(led3,HIGH);
-delay(600); //200=1s
+delay(1000); //200=1s
 digitalWrite(2,LOW);
-delay(600);
-//led verde
-digitalWrite(led3,HIGH);
-delay(500); //200=1s
-digitalWrite(2,LOW);
-delay(400);
+delay(1000);
 //led amarillo
 digitalWrite(led2,HIGH);
-delay(300); //200=1s
+delay(1000); //200=1s
 digitalWrite(6,LOW);
-delay(600);
+delay(1000);
  //led rojo
 digitalWrite(led,HIGH);
-delay(600); //200=1s
-digitalWrite(13,LOW);
-delay(900);
+delay(1000); //200=1s
+
 
 }
