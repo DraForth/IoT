@@ -1,13 +1,45 @@
+//Edilson Montilla Enriquez
 int led=13;
+int led2=6;
+int led3=2;
 void setup() {
   // put your setup code here, to run once:
 pinMode(led,OUTPUT); //Nr.port 3 Mode
+pinMode(led2,OUTPUT);
+pinMode(led3,OUTPUT);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
+ //led rojo
 digitalWrite(led,HIGH);
-delay(200); //200=1s
+delay(100); //200=1s
 digitalWrite(13,LOW);
-delay(200);
+delay(400);
+//led amarillo
+digitalWrite(led2,HIGH);
+delay(300); //200=1s
+digitalWrite(6,LOW);
+delay(600);
+//led verde
+digitalWrite(led3,HIGH);
+delay(600); //200=1s
+digitalWrite(2,LOW);
+delay(600);
+//led verde
+digitalWrite(led3,HIGH);
+delay(500); //200=1s
+digitalWrite(2,LOW);
+delay(400);
+//led amarillo
+digitalWrite(led2,HIGH);
+delay(300); //200=1s
+digitalWrite(6,LOW);
+delay(600);
+ //led rojo
+digitalWrite(led,HIGH);
+delay(600); //200=1s
+digitalWrite(13,LOW);
+delay(900);
+
 }
